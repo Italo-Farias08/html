@@ -3,69 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>html</title>
+    <title>Teste de imagem de fundo</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div.quadrado{
+            border: 2px black solid;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            background-color: lightgrey;
+            border-radius: 10px;
+        }
+        #q1{
+    background-color: skyblue;
+        }
+        #q2{
+    background-image: linear-gradient(to bottom, yellow, red);
+        }
+        #q3{
+    background-image: url(imagens/pattern003.png);
+        }
+    </style>
 </head>
 <body>
-    <h1>Trabalhando com listas</h1>
-    <h2>
-        Listas ordenadas
-    </h2>
-   
-    <ol type="1" >
-        <li>Acordar</li>
-        <li>tomar banho</li>
-        <li>Escovar os dentes</li>
-        <li>Café da manhã</li>
-        <li>Estudo Bíblico</li>
-        <li>Ir pra escola</li>
-        <li>Almoçar</li>
-        <li>Ir para academia</li>
-        <li>Voltar pra casa</li>
-        <li>Jantar</li>
-        <li>Dormir</li>
-    </ol>
-    <h2>
-        Listas não ordenadas
-    </h2>
-    <ul>
-        <li>Pão</li>
-        <li>Feijão</li>
-        <li>Manteiga</li>
-        <li>Arroz</li>
-        <li>Cebola</li>
-        <li>Tomate</li>
-    </ul>
-    <h2>
-        Minhas linguagens favoritas
-    </h2>
-    <ol>
-        <li>ANTIGAS</li>
-        <ol type="a">
-            <li>Clipper</li>
-            <li>Visual basic</li>
-            <li>Matematica</li>
-            <li>Artes</li>
-        </ol>
-        <li>NOVAS</li>
-        <ol type="a">
-            <li>Java</li>
-            <li>Python</li>
-            <li>PHP</li>
-            <li>Java Script</li>
-        </ol>
-    </ol>
-    <h2>
-        Lista de Definições
-    </h2>
-    <dl>
-        <dt>HTML</dt>
-        <dd>Linguagem de marcação de textos para criação de sites</dd><br>
-        <dt>CSS</dt>
-        <dd>Linguagem de marcação para design de um site</dd><br>
-        <dt>JAVA SCRIPT</dt>
-        <dd>Linguagem de programação para interações de um site</dd>
-    </dl>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
     
 </body>
 </html>
