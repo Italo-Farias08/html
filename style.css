@@ -54,6 +54,7 @@ header a:hover, footer a:hover{
     background-size: cover;
     width: 300px;
     will-change: transform;
+    height: 600px;
 
 }
 section{
