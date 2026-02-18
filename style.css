@@ -50,11 +50,12 @@ header a:hover, footer a:hover{
     background-color: rgb(92, 92, 92);
     color: rgb(255, 255, 255);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
-    background-position: center;
+    background-position: right center;
     background-size: cover;
-    width: 300px;
-    will-change: transform;
-    height: 600px;
+    background-attachment: fixed;
+    
+   
+    
 
 }
 section{
